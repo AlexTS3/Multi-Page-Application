@@ -21,7 +21,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
     display: flex;
-    gap: 0.5em;
+    gap: 3em;
 }
 
 nav ul li a {
@@ -36,9 +36,19 @@ nav ul li a {
     justify-content: flex-start;
 }
 
-/* .navigation {
+.wrapper {
     display: flex;
+    align-items: center;
     justify-content: space-around;
-    background-color: blanchedalmond;
-    padding: 2%
-} */
+}
+
+.form-info {
+    display: flex;
+    flex-direction: column;
+}
+.activity {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+}
