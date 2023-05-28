@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    margin: 4em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    gap: 0.5em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* .navigation {
+    display: flex;
+    justify-content: space-around;
+    background-color: blanchedalmond;
+    padding: 2%
+} */
