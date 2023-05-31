@@ -43,7 +43,8 @@ body {
 .wrapper {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
+    /* justify-content: space-between; */
 }
 
 .form-info {
@@ -55,4 +56,20 @@ body {
     flex-direction: column;
     align-content: space-around;
     /* justify-content: space-around; */
+}
+
+.places {
+    display: flex;
+    flex-direction: column;
+}
+
+.place-img {
+    width: 30%;
+    height: auto;
+}
+
+.suggestion {
+    display: flex;
+    align-content: space-around;
+    flex-direction: column;
 }
