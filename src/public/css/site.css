@@ -61,6 +61,7 @@ body {
 .places {
     display: flex;
     flex-direction: column;
+    gap: 2em;
     align-content: space-between;
 }
 
@@ -71,8 +72,9 @@ body {
 
 .suggestion {
     display: flex;
-    align-content: space-around;
+    align-content: space-between;
     flex-direction: row;
+    gap: 2em;
 }
 
 .info-btn {
