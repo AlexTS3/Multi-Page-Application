@@ -61,15 +61,25 @@ body {
 .places {
     display: flex;
     flex-direction: column;
+    align-content: space-between;
 }
 
 .place-img {
-    width: 30%;
+    width: 20%;
     height: auto;
 }
 
 .suggestion {
     display: flex;
     align-content: space-around;
-    flex-direction: column;
+    flex-direction: row;
+}
+
+.info-btn {
+    width: 30%;
+}
+
+.preview {
+    width: 30%;
+
 }
