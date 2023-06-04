@@ -1,19 +1,27 @@
+/* Body styles */
 body {
     margin: 0;
     min-height: 100vh;
     background-color: bisque;
 }
 
+/* Container div styles  */
 .container {
     max-width: 1200px;
     margin: 0 auto;
 }
 
+/* Nav-bar styles */
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(250, 215, 172);
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
 }
 
 nav {
@@ -34,11 +42,7 @@ nav ul li a {
     position: relative;
 }
 
-.logo {
-    display: flex;
-    justify-content: flex-start;
-}
-
+/* Main body div styles  */
 .wrapper {
     display: flex;
     align-items: center;
@@ -50,11 +54,62 @@ nav ul li a {
     background-color: rgb(248, 191, 122);
 }
 
+/* Home Page  */
+.home-container {
+    width: auto;
+    max-height: 700px;
+    text-align: center;
+}
+
+.home-container img {
+    height: 550px;
+}
+
+.home-container .home-nav {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.home-container .home-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Home Page redirect button styles  */
 .wrapper h2 a {
     text-decoration: none;
     color: black;
 }
 
+/* Suggestions section */
+.suggestion {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2em;
+    text-align: center;
+    align-items: center;
+}
+
+.preview {
+    width: 30%;
+    height: fit-content;
+}
+
+.suggestion a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.info-btn {
+    width: 30%;
+}
+
+
+
+/* Search section styles */
 .form-info {
     display: flex;
     flex-direction: column;
@@ -70,12 +125,13 @@ nav ul li a {
     gap: 2em;
 }
 
-.activity .radio {
+.activity .checkbox {
     display: flex;
     justify-content: space-between;
     align-content: center;
 }
 
+/* Add section styles  */
 .add-place {
     display: flex;
     flex-direction: column;
@@ -137,49 +193,4 @@ nav ul li a {
 .place-img {
     width: 20%;
     height: auto;
-}
-
-.suggestion {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    gap: 2em;
-    text-align: center;
-    align-items: center;
-}
-
-.suggestion a {
-    text-decoration: none;
-    color: black;
-    font-size: 1.5rem;
-}
-
-.info-btn {
-    width: 30%;
-}
-
-.preview {
-    width: 30%;
-    height: fit-content;
-}
-
-.home-container {
-    width: auto;
-    max-height: 700px;
-    text-align: center;
-}
-
-.home-container img {
-    height: 550px;
-}
-
-.home-container .home-nav {
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-}
-
-.home-container .home-nav a {
-    text-decoration: none;
-    color: black;
 }
