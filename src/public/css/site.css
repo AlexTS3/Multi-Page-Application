@@ -1,5 +1,7 @@
 body {
     margin: 0;
+    min-height: 100vh;
+    background-color: bisque;
 }
 
 .container {
@@ -11,6 +13,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgb(250, 215, 172);
 }
 
 nav {
@@ -31,10 +34,6 @@ nav ul li a {
     position: relative;
 }
 
-body {
-    min-height: 100vh;
-}
-
 .logo {
     display: flex;
     justify-content: flex-start;
@@ -43,15 +42,19 @@ body {
 .wrapper {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     width: auto;
-    height: auto;
+    min-height: 650px;
+    padding: 1em;
+    background-color: rgb(248, 191, 122);
 }
 
 .form-info {
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-content: center;
 }
 
 .activity {
@@ -102,7 +105,7 @@ body {
 }
 
 .home-container img {
-    height: 500px;
+    height: 550px;
 }
 
 .home-container .home-nav {
