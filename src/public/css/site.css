@@ -57,7 +57,13 @@ body {
 .activity {
     display: flex;
     flex-direction: column;
-    align-content: space-around;
+    gap: 2em;
+}
+
+.activity .radio {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
 }
 
 .places {
