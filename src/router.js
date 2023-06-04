@@ -6,6 +6,9 @@ router.use(homeController);
 router.use('/places', (req, res) => {
     res.render('places');
 });
+router.use('/add-place', (req, res) => {
+    res.render('add-place');
+});
 router.use('/search', (req, res) => {
     res.render('search');
 });

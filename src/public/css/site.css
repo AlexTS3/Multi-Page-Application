@@ -60,6 +60,8 @@ nav ul li a {
     flex-direction: column;
     text-align: center;
     justify-content: center;
+    width: 60%;
+    font-size: 20px;
 }
 
 .activity {
@@ -72,6 +74,58 @@ nav ul li a {
     display: flex;
     justify-content: space-between;
     align-content: center;
+}
+
+.add-place {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 1em;
+    width: 60%;
+    font-size: 20px;
+}
+
+.add-place form .place-select select {
+    width: 80%;
+    font-size: 15px;
+    text-align: center;
+}
+
+.add-place form .add-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4em;
+}
+
+.add-place form .add-img input {
+    width: 80%;
+}
+
+.add-place form .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3em;
+}
+
+.add-place form .description textarea {
+    width: 80%;
+    height: 30%;
+    font-size: 15px;
+}
+
+.add-place form .vehicle-choice select {
+    width: 80%;
+    font-size: 15px;
+    text-align: center;
+}
+
+.add-place input[type="submit"] {
+    align-self: center;
+    font-size: 20px;
+    width: fit-content;
 }
 
 .places {
@@ -112,7 +166,7 @@ nav ul li a {
 .home-container {
     width: auto;
     max-height: 700px;
-
+    text-align: center;
 }
 
 .home-container img {
