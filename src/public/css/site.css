@@ -51,18 +51,17 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .activity {
     display: flex;
     flex-direction: column;
     align-content: space-around;
-    /* justify-content: space-around; */
 }
 
 .places {
     display: flex;
     flex-direction: column;
     gap: 2em;
-    align-content: space-between;
 }
 
 .place-img {
@@ -72,9 +71,10 @@ body {
 
 .suggestion {
     display: flex;
-    align-content: space-between;
+    justify-content: center;
     flex-direction: row;
     gap: 2em;
+    text-align: center;
 }
 
 .info-btn {
@@ -83,5 +83,4 @@ body {
 
 .preview {
     width: 30%;
-
 }
