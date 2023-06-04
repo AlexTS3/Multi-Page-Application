@@ -75,6 +75,7 @@ body {
     flex-direction: row;
     gap: 2em;
     text-align: center;
+    align-items: center;
 }
 
 .info-btn {
@@ -83,4 +84,5 @@ body {
 
 .preview {
     width: 30%;
+    height: fit-content;
 }
