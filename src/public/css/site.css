@@ -83,6 +83,14 @@ nav ul li a {
 }
 
 /* Suggestions section */
+.places {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+
+
 .suggestion {
     display: flex;
     justify-content: center;
@@ -90,6 +98,11 @@ nav ul li a {
     gap: 2em;
     text-align: center;
     align-items: center;
+}
+
+.place-img {
+    width: 20%;
+    height: auto;
 }
 
 .preview {
@@ -213,15 +226,4 @@ nav ul li a {
     align-self: center;
     font-size: 20px;
     width: fit-content;
-}
-
-.places {
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-}
-
-.place-img {
-    width: 20%;
-    height: auto;
 }
