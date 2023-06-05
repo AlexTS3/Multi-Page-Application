@@ -1,8 +1,13 @@
 const router = require('express').Router();
+const placeManager = require('../managers/placeManager');
 
-router.get('/', (req, res) => {
+router.get('/', async (req, res) => {
 
-    res.render('index');
+    const { name, activity, vehicle } = req.query;
+
+    const places = await placeManager.getAll(name, activity, vehicle);
+
+    res.render('index', { places, name, activity, vehicle });
 });
 
 router.get('/about', (req, res) => {
