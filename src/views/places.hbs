@@ -1,33 +1,19 @@
 <main>
     <div class="wrapper">
 
+        {{#each places}}
         <div class="places">
-            <div class="suggestion">
-                <img class="place-img"
-                    src="https://bulgarianontheroad.files.wordpress.com/2021/05/meandri-arda-2.jpg?w=1024"
-                    alt="Arda River">
-                <p class="preview">Река Арда е известна с невероятните форми, които коритото и е създало през
-                    годините...</p>
-                <a class="info-btn" href="#"> >Повече информация< </a>
+            <div class="place">
+                <h2>{{name}}</h2>
+                <img class="place-img" src="{{imageUrl}}" alt="Arda River">
+                <p class="preview">{{description}}</p>
+                <a class="info-btn" href="/places/{{_id}}/details"> >Повече информация< </a>
             </div>
-            <div class="suggestion">
-                <img class="place-img"
-                    src="https://iskamdaletya.com/wp-content/uploads/2021/03/IMG_3182_edited-1024x683.jpg"
-                    alt="Eco Trail Iskar Panega">
-                <p class="preview">Екопътека Искър-Панега е лесна и приятна дестинация за малки и големи. Водата има
-                    своя чуден цвят,
-                    който кара десетки хора да я посетят...</p>
-                <a class="info-btn" href="#"> >Повече информация< </a>
-            </div>
-            <div class="suggestion">
-                <img class="place-img"
-                    src="https://trafficnews.bg/news/2022/06/20/zabraniavat-dostapa-dzhipove-sedemte-822.jpg"
-                    alt="Seven Rila Lakes">
-                <p class="preview">Седемте рилски езера са популярна дестинация, която ви доближава до природата чрез
-                    гледките, които
-                    дава...</p>
-                <a class="info-btn" href="#"> >Повече информация< </a>
-            </div>
+            
+            {{else}}
+            <h1>Няма намерени места!</h1>
+            
+            {{/each}}
 
         </div>
         <h2><a href="/">Към Начална Страница</a></h2>
